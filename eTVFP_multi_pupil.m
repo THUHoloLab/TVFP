@@ -111,8 +111,8 @@ if prev
    axis image off tight
    colormap gray
    
-   figure, an = animatedline;
-   xlim([0,maxItr])
+%    figure, an = animatedline;
+%    xlim([0,maxItr])
 end
 
 %% Main loop
@@ -209,12 +209,12 @@ for ii = 1:maxItr
         set(im,'CData',abs(f));
         set(t,'String',['Iteration = ',num2str(ii)]);
         
-        regul = sqrt(abs(ipsi_h).^2 + abs(ipsi_v).^2);
-        regul = sum(regul,'all');
-        resid = (abs(x) - b).^2;
-        resid = sum(resid,'all');
-%         objective = regul + lambda*resid/2;
-        addpoints(an,ii,double(resid));
+%         regul = sqrt(abs(ipsi_h).^2 + abs(ipsi_v).^2);
+%         regul = sum(regul,'all');
+%         resid = (abs(x) - b).^2;
+%         resid = sum(resid,'all');
+% %         objective = regul + lambda*resid/2;
+%         addpoints(an,ii,double(resid));
         
         drawnow
     end
