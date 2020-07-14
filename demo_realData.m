@@ -9,13 +9,12 @@ apDia = 63;
 % get the Fourier domain sampling pattern
 [h,w,N] = size(ims);
 
-% samplingPattern = ones(N,1);
-samplingPattern = zeros(N,1);
+samplingPattern = ones(N,1);
+% samplingPattern = zeros(N,1);
 % samplingPattern([4 11 17 18 19 22 23 24 25 ...
 %     26 27 28 31 32 33 39 46]) = 1;
-samplingPattern([4 18 22 24 25 26 28 32 46]) = 1;
-% samplingPattern([17 18 19 24 25 26 31 32 33]) = 1;
-% ims = reshape(ims,h,w,[]);
+% samplingPattern([4 18 22 24 25 26 28 32 46]) = 1;
+
 
 ind = find(~samplingPattern);
 ims(:,:,ind) = [];
@@ -29,17 +28,17 @@ opts.cc = cc;
 opts.apertureShift = spacing; 
 opts.apDia = apDia;
 opts.pupilType = 'circle';%'circle' 'custom'
-[samplingIndices,pupil,hROW,hCOL] = getSampling(opts);
+[samplingIndices,pupil,hROW,hCOL] = getSampling_realData(opts);
 
 % parameters for TVFP
-prms.maxItr = 500;
+prms.maxItr = 300;
 prms.ROW = h;
 prms.COL = w;
 prms.hROW = hROW;
 prms.hCOL = hCOL;
-prms.lambda1 = 10;%8;
-prms.mu1 = 0.8;%1;     
-prms.eta = 4;%4;     % relaxing
+prms.lambda1 = 8;%8;
+prms.mu1 = 1;%1;     
+prms.eta = 0.6;%4;     % relaxing
 
 prms.lambda2 = 20;%20; 
 prms.mu2 = 0.0007;%0.0007;
