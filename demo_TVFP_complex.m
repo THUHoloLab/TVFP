@@ -59,18 +59,27 @@ prms.eta = 10;
 prms.beta = 0.6;
 
 prms.relchg_tol = 1e-05;
-prms.verbose = 0;           % display the relative change
+prms.verbose = 1;           % display the relative change
 prms.prev = 1;              % preview the iterative image
 
 tic
 [x,out] = TVFP(I,samplingIndices,pupil,prms,im);
 toc
 
+% Correct conjugate phase
+ims = imresize(im,[hROW,hCOL]);
+M1 = norm(x - ims,'fro');
+M2 = norm(-x - ims,'fro');
+if M1 > M2
+    x = -x;
+end
+
+% Show results
 LRImage = imresize(sqrt(I(:,:,ceil(end/2))),[hROW,hCOL]);
 figure('position',[100,100,1024,384]),
 subplot(131),imshow(abs(LRImage),[]);title('LR image')
 subplot(132),imshow(abs(x),[]);title('Recovered amplitude')
-subplot(133),imshow(angle(-x),[]);title('Recovered phase')
+subplot(133),imshow(angle(x),[]);title('Recovered phase')
 
 % %---evaluation
 % % x = exp(-1i*pi/4)*x/sign(x(1));   % phase calibration

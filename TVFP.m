@@ -44,6 +44,9 @@ end
 
 b = sqrt(b);
 [h,w,~] = size(b);
+if exist('f_true','var')
+    [ht,wt] = size(f_true);
+end
 
 % set up the annoyomous helper functions
 f_h = @(z) F_LENS2SENSOR(z(samplingIndices),pupil,h,w);
@@ -147,7 +150,9 @@ for ii = 1:maxItr
     if verbose && mod(ii,10) == 0
         fprintf('itr=%d relchg=%4.1e', ii, relchg);
         if exist('f_true','var')
-            fprintf(' snr=%4.1f',snr(f_true,f - f_true)); 
+            Fx = fftshift(psi((hROW-ht)/2+1:end - (hROW-ht)/2,(hCOL-wt)/2+1:end - (hCOL-wt)/2));
+            fx = ifft2(Fx);
+            fprintf(' snr=%4.1f',snr(f_true,fx - f_true)); 
         end
         fprintf('\n');
     end
