@@ -1,7 +1,7 @@
 ## Total variation regularization-based Fourier ptychography (TVFP)<br><sub>Matlab implementation of the TVFP / eTVFP</sub>
 
 <p align="center">
-<img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig1.png" height="400">
+<img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig1.png" width="500">
 </p>
   
 **Resolution enhancement of long-range imaging with sparse apertures**<br>
