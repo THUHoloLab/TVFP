@@ -7,7 +7,7 @@
 **Resolution enhancement of long-range imaging with sparse apertures**<br>
 Jiachen Wu, Feng Yang, Liangcai Cao<br>
 - [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208) for TVFP/eTVFP <a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208"></a>.
-- [Paper download](https://github.com/THUHoloLab/TVFP/blob/master/figures/OLEN-jiachen.pdf) for TVFP/eTVFP <a href="https://github.com/THUHoloLab/TVFP/blob/master/figures/OLEN-jiachen.pdf"></a>.
+- [Paper download](https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf) for TVFP/eTVFP <a href="https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf"></a>.
 
 ## Release notes
 - demo_TVFP_resChart.m  - demonstrate the TVFP algorithm to reconstruct amplitude-only objects (resolution chart)  
