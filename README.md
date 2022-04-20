@@ -6,8 +6,8 @@
   
 **Resolution enhancement of long-range imaging with sparse apertures**<br>
 Jiachen Wu, Feng Yang, Liangcai Cao*<br>
-- [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208) for TVFP/eTVFP <a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208"></a>.
-- [Paper download](https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf) for TVFP/eTVFP <a href="https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf"></a>.
+- [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208) for TVFP / eTVFP <a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208"></a>.
+- [Paper download](https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf) for TVFP / eTVFP <a href="https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf"></a>.
 
 ## Release notes
 - demo_TVFP_resChart.m  - demonstrate the TVFP algorithm to reconstruct amplitude-only objects (resolution chart)  
@@ -19,5 +19,5 @@ Jiachen Wu, Feng Yang, Liangcai Cao*<br>
 Reconstructions for different overlapping ratio. (a) Reconstructed images under different overlapping ratio with Gaussian noise using different algorithms (IERA, TPWFP, FPSR, and TVFP). (b) PSNR for reconstructed images from measurements without noise. (c) PSNR for reconstructed images from measurements with 20 dB SNR Gaussian noise.
 
 <p align="center">
-<img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig2.png" width="500">
+<img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig2.png" width="700">
 </p>
