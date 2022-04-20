@@ -56,4 +56,4 @@ toc
 % show the results
 centerView = imresize(I(:,:,ceil(end/2)),[hROW,hCOL],'bilinear');
 figure,imshowpair(sqrt(centerView),abs(x),'montage');
-title('Left:Center input image   Right:Recovered phase')
+title('Left:Center input image   Right:Recovered image')
