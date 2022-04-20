@@ -18,7 +18,7 @@ Jiachen Wu, Feng Yang, Liangcai Cao*<br>
 - demo_realData.m       - demonstrate the reconstruction for real data  
 
 ## Performance evaluation
-Reconstructions for different overlapping ratio. (a) Reconstructed images under different overlapping ratio with Gaussian noise using different algorithms (IERA, TPWFP, FPSR, and TVFP). (b) PSNR for reconstructed images from measurements without noise. (c) PSNR for reconstructed images from measurements with 20 dB SNR Gaussian noise.
+Reconstructions for different overlapping ratio. (a) Reconstructed images under different overlapping ratio with Gaussian noise using different algorithms (Gauss-Newton, TPWFP, FPSR, and TVFP). (b) PSNR for reconstructed images from measurements without noise. (c) PSNR for reconstructed images from measurements with 20 dB SNR Gaussian noise.
 
 <p align="center">
 <img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig2.png" width="700">
