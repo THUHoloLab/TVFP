@@ -8,6 +8,8 @@
 Jiachen Wu, Feng Yang, Liangcai Cao*<br>
 - [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208) for TVFP / eTVFP <a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208"></a>.
 - [Paper download](https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf) for TVFP / eTVFP <a href="https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf"></a>.
+- Contact: wjc18@mails.tsinghua.edu.cn
+- Contact: clc@tsinghua.edu.cn
 
 ## Release notes
 - demo_TVFP_resChart.m  - demonstrate the TVFP algorithm to reconstruct amplitude-only objects (resolution chart)  
