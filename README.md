@@ -1,4 +1,4 @@
-# Total variation regularization-based Fourier ptychography (TVFP)<br><sub>Matlab implementation of the TVFP / eTVFP</sub>
+## Total variation regularization-based Fourier ptychography (TVFP)<br><sub>Matlab implementation of the TVFP / eTVFP</sub>
 
 <p align="center">
 <img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig1.png" height="400">
