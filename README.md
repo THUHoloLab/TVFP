@@ -1,5 +1,9 @@
 ## Total variation regularization-based Fourier ptychography (TVFP)<br><sub>Matlab implementation of the TVFP / eTVFP</sub>
 
+Jiachen Wu, Feng Yang, and Liangcai Cao, "Resolution enhancement of long-range imaging with sparse apertures," Optics and Lasers in Engineering 155, 107068 (2022).
+
+
+
 <p align="center">
 <img src="https://github.com/THUHoloLab/TVFP/blob/master/figures/fig1.png" width="500">
 </p>
@@ -8,7 +12,7 @@
 Jiachen Wu, Feng Yang, Liangcai Cao*<br>
 - [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208) for TVFP / eTVFP <a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816622001208"></a>.
 - [Paper download](https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf) for TVFP / eTVFP <a href="https://github.com/THUHoloLab/TVFP/raw/master/figures/OLEN-jiachen.pdf"></a>.
-- Contact: wjc18@mails.tsinghua.edu.cn
+- Contact: wjc18@tsinghua.org.cn
 - Contact: clc@tsinghua.edu.cn
 
 ## Release notes
